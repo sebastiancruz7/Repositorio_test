@@ -1,0 +1,20 @@
+add prepara los archivos
+add "nombre de archivo"
+add . TODO
+
+git remote add origin https://github.com/sebastiancruz7/Repositorio_test.git
+
+origin referencia a repositorio remoto
+
+git push sube a la rama main o master
+git push origin "nombre de rama" 
+
+git branch "nombre de rama" CREA UNA RAMA
+git branch  VER RAMAS
+
+git checkout cambiarte de rama
+
+git pull origin "nombre de rama" Fusiona rama con otra (Primero cambiarse en la rama donde se quiere pullear cambios)
+
+git branch -d "nombre rama" elimina rama (LOCAL)
+git push origin --delete "nombre rama" elimina rama remota
